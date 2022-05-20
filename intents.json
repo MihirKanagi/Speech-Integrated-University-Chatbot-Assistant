@@ -1,0 +1,118 @@
+{"intents": [
+        {"tag": "Greeting",
+         "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "Hello! I'm Dexter. How may I help you?", "Hey there!"],
+         "context_set": ""
+        },
+    
+       {"tag": "AS_Building_location",
+         "patterns": ["AS building", "Where’s the AS building", "AS building Location", "Where is AS101", "Where is AS building located", "Where is AS102", "Where is AS103", "Where is AS104", "Where is AS105", "Where is AS106", "Where is AS107", "Where is AS108", "Where is AS109", "Where is AS110", "Where is AS201", "Where is AS202", "Where is AS203", "Where is AS204", "Where is AS205", "Where is AS206", "Where is AS207", "Where is AS208", "Where is AS209", "Where is AS210", "Where is AS301", "Where is AS302", "Where is AS303", "Where is AS304", "Where is AS305", "Where is AS306", "Where is AS307", "Where is AS308", "Where is AS309", "Where is AS310", "Where is AS401", "Where is AS402", "Where is AS403", "Where is AS404", "Where is AS405", "Where is AS406", "Where is AS407", "Where is AS408", "Where is AS409", "Where is AS410"],
+         "responses": ["Its located near fountain", "Besides workshop", "Dyaneshwar Library"],
+         "context_set": ""
+        },
+    
+        {"tag": "M_Building_location",
+         "patterns": ["M building", "Where is the M building located", "Wheres the M building", "M building Location", "Where is M101", "Where is M102", "Where is M103", "Where is M104", "Where is M105", "Where is M106", "Where is M107", "Where is M108", "Where is M109", "Where is M110", "Where is M201", "Where is M202", "Where is M203", "Where is M204", "Where is M205", "Where is M206", "Where is M207", "Where is M208", "Where is M209", "Where is M210", "Where is M301", "Where is M302", "Where is M303", "Where is M304", "Where is M305", "Where is M306", "Where is M307", "Where is M308", "Where is M309", "Where is M310", "Where is M401", "Where is M402", "Where is M403", "Where is M404", "Where is M405", "Where is M406", "Where is M407", "Where is M408", "Where is M409", "Where is M410"],
+       "responses": ["On the right side when u pass the globe", "Besides Electronics department", "The room is located near in M Building"],
+       "context_set": ""
+        },
+    
+        {"tag": "N_Building_location",
+         "patterns": ["N building", "Wheres the N building", "N building Location", "Where is N101", "Where is N102", "Where is N103", "Where is N104", "Where is N105", "Where is N106", "Where is N107", "Where is N108", "Where is N109", "Where is N110", "Where is N201", "Where is N202", "Where is N203", "Where is N204", "Where is N205", "Where is N206", "Where is N207", "Where is N208", "Where is N209", "Where is N210", "Where is N301", "Where is N302", "Where is N303", "Where is N304", "Where is N305", "Where is N306", "Where is N307", "Where is N308", "Where is N309", "Where is N310", "Where is N401", "Where is N402", "Where is N403", "Where is N404", "Where is N405", "Where is N406", "Where is N407", "Where is N408", "Where is N409", "Where is N410"],
+         "responses": ["On the left side when u pass the globe", "Besides Mechanical department", "The room is located near in N Building"],
+         "context_set": ""
+        },
+    
+        {"tag": "P_Building_location",
+         "patterns": ["P building","Wheres the P building", "P building Location","Where’s the P building", "P building Location", "Where is P101", "Where is P102", "Where is P103", "Where is P104", "Where is P105", "Where is P106", "Where is P107", "Where is P108", "Where is P109", "Where is P110", "Where is P201", "Where is P202", "Where is P203", "Where is P204", "Where is P205", "Where is P206", "Where is P207", "Where is P208", "Where is P209", "Where is P210", "Where is P301", "Where is P302", "Where is P303", "Where is P304", "Where is P305", "Where is P306", "Where is P307", "Where is P308", "Where is P309", "Where is P310", "Where is P401", "Where is P402", "Where is P403", "Where is P404", "Where is P405", "Where is P406", "Where is P407", "Where is P408", "Where is P409", "Where is P410"],
+         "responses": ["Its located opposite Dyaneshwar statue", "Adjacent Mechanical department"],
+         "context_set": ""
+        },
+    
+        {"tag": "A_Building",
+         "patterns": ["A building","Where is the A building","Where’s the A building", "A building Location", "Where is A101", "Where is A102", "Where is A103", "Where is A104", "Where is A105", "Where is A106", "Where is A107", "Where is A108", "Where is A109", "Where is A110", "Where is A201", "Where is A202", "Where is A203", "Where is A204", "Where is A205", "Where is A206", "Where is A207", "Where is A208", "Where is A209", "Where is A210", "Where is A301", "Where is A302", "Where is A303", "Where is A304", "Where is A305", "Where is A306", "Where is A307", "Where is A308", "Where is A309", "Where is A310", "Where is A401", "Where is A402", "Where is A403", "Where is A404", "Where is A405", "Where is A406", "Where is A407", "Where is A408", "Where is A409", "Where is A410"],
+         "responses": ["Its located on the opposite of acceleracers workshop"],
+         "context_set": ""
+        },
+
+        {"tag": "D_Building",
+         "patterns": ["D building","Where is the D building", "Where’s the D building", "D building Location", "Where is D101", "Where is D102", "Where is D103", "Where is D104", "Where is D105", "Where is D106", "Where is D107", "Where is D108", "Where is D109", "Where is D110", "Where is D201", "Where is D202", "Where is D203", "Where is D204", "Where is D205", "Where is D206", "Where is D207", "Where is D208", "Where is D209", "Where is D210", "Where is D301", "Where is D302", "Where is D303", "Where is D304", "Where is D305", "Where is D306", "Where is D307", "Where is D308", "Where is D309", "Where is D310", "Where is D401", "Where is D402", "Where is D403", "Where is D404", "Where is D405", "Where is D406", "Where is D407", "Where is D408", "Where is D409", "Where is D410"],
+         "responses": ["Its located on the opposite of acceleracers workshop", "Adjacent to A building"],
+         "context_set": ""
+        },
+
+        {"tag": "C_Building",
+         "patterns": ["C building","Where is the C building", "Where’s the C building", "C building Location", "Where is C101", "Where is C102", "Where is C103", "Where is C104", "Where is C105", "Where is C106", "Where is C107", "Where is C108", "Where is C109", "Where is C110", "Where is C201", "Where is C202", "Where is C203", "Where is C204", "Where is C205", "Where is C206", "Where is C207", "Where is C208", "Where is C209", "Where is C210", "Where is C301", "Where is C302", "Where is C303", "Where is C304", "Where is C305", "Where is C306", "Where is C307", "Where is C308", "Where is C309", "Where is C310", "Where is C401", "Where is C402", "Where is C403", "Where is C404", "Where is C405", "Where is C406", "Where is C407", "Where is C408", "Where is C409", "Where is C410"],
+         "responses": ["Its located on the adjacent of acceleracers workshop"],
+         "context_set": ""
+        },
+        
+        {"tag": "Student_section",
+         "patterns": ["Student section", "Where is student section?", "student section location?", "where is student section located", "student section room number", "student section building"],
+         "responses": ["A106 room location", "Student section is located in A building", "Student section is on the first floor of A building room 106"],
+         "context_set": ""
+        },
+    
+        {"tag": "Courses_offered",
+         "patterns": ["courses", "different courses", "Courses offered", "tell me about different courses", "what are the various courses", "courses", "professional courses", "bachelor course"],
+         "responses": ["Engineering and technology, Management, Law, Fine arts, media and journalism, Liberal Arts, Public policy, Economics Governance, Commerce, Design, Faculty of tourism studies, Sustainability studies, " ],
+         "context_set": ""
+        },
+    
+        {"tag": "enrollment",
+         "patterns": ["How to enroll", "I would like to enroll", "I want to enroll", "enrollment", "enroll in a semester"],
+         "responses": ["To enroll in an undergraduate degree program you will need to meet the University's minimum academic and English language requirements."],
+         "context_set": "subjects"
+        },
+    
+        {"tag": "Campus_facilities",
+         "patterns": ["Facilities", "Facilities offered", "tell me about different  facility", "what are the facilities provided by mit"],
+         "responses": ["Accomodation, Canteen, Parking for vehicles, All digital teaching experience, Basketball and cricket courts, Latest labouratory equipments"],
+         "context_set": ""
+        },
+
+        {"tag": "HOS_information",
+         "patterns": ["Who are the different HOS", "Faculty", "HOS", "mechanical department HOS", "electrical department HOS", "computer science department HOS","electronics department HOS", "civil department HOS", "chemical department HOS", "petroleum department HOS"],
+         "responses": ["School of mechanical engineering HOS Dr. Ganesh Kakandikar","School of electronics and communication engineering Dr. Vinaya Gohokar","School of computer engineering and technology Dr. Vrushali Y. Kulkarni ","School of civil engineering Prof. Dr. Shantini Bokil","School of electrical engineering Dr. Bharat S. Chaudhari","School of chemical engineering Dr. Vikrant Gaikwad","School of petroleum engineering Dr. Rahul Anant Joshi"],
+         "context_set": ""
+        },
+        
+        {"tag": "Dean",
+         "patterns": ["Who is the dean", "Who is the dean of engineering", "Dean information", "Dean of engineering"],
+         "responses": ["Prof. Dr. Prasad D. Khandekar Dean of Faculty of Engineering & Technology"]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["See you later", "Goodbye", "I am Leaving", "Have a Good day", "cya later", "I gotta go now", "I gotta rush now"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+    
+        {"tag": "No",
+         "patterns": ["No"],
+         "responses": ["Okay then, how else may I help you?"]
+        },
+    
+        {"tag": "age",
+         "patterns": ["how old", "how old is Dexter", "what is your age", "how old are you", "age?"],
+         "responses": ["My master built me just a month ago.", "Just a month old!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Dexter.", "I'm Dexter!", "I'm Dexter aka The university chatbot."],
+         "context_set": ""
+        },
+    
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "You're very welcome"]
+        },
+        
+        {"tag": "contact",
+         "patterns": ["contact", "contact information", "contact us", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?"],
+         "responses": ["You can contact us at https://mitwpu.edu.in/", "Visit student section for admission and related queries"],
+         "context_set": ""
+        }
+   ]
+}
